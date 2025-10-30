@@ -36,7 +36,7 @@ print("Is Uppercase?", phrase2.isupper())
 print("Is Uppercase?", name.isupper())
 # # Find the length of the string
 # print("Length of phrase:", len(phrase))  # Output: 14
-
+declaration_of_independance ="We hold these truths to be self-evident, that all men are created equal, that they are endowed, by their Creator, with certain unalienable rights, that among these are life, liberty, and the pursuit of happiness"
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
@@ -84,3 +84,4 @@ print("Is Uppercase?", name.isupper())
 # # You can also use f-strings (Python 3.6+)
 # intro_fstring = f"My name is {name} and I am {age} years old."
 # print(intro_fstring)
+
