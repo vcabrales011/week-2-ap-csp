@@ -36,7 +36,30 @@ print("Is Uppercase?", phrase2.isupper())
 print("Is Uppercase?", name.isupper())
 # # Find the length of the string
 # print("Length of phrase:", len(phrase))  # Output: 14
-declaration_of_independance ="We hold these truths to be self-evident, that all men are created equal, that they are endowed, by their Creator, with certain unalienable rights, that among these are life, liberty, and the pursuit of happiness"
+
+
+Chicago_mayor = "Johnson"
+#index slicing
+print(Chicago_mayor[0])
+print(Chicago_mayor[-1])
+print(Chicago_mayor[4])
+print(Chicago_mayor[ 4 :])
+#The first number in sliucing is inclusing
+#The second numer is exclusive
+# get the string "John"
+print (Chicago_mayor[0:4])
+print (Chicago_mayor[0:-3])
+# get ohns
+print(Chicago_mayor[1:5])
+# when we get one character/ letter
+#its called string indexing
+#Wheb we get a chunch or letters
+#from a string, its called string slicing
+phrase3 ="supercagifragilstic"
+print(phrase3.upper())
+cut = phrase3 [0:5]
+print(cut)
+
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
@@ -84,4 +107,5 @@ declaration_of_independance ="We hold these truths to be self-evident, that all 
 # # You can also use f-strings (Python 3.6+)
 # intro_fstring = f"My name is {name} and I am {age} years old."
 # print(intro_fstring)
+
 
